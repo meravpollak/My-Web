@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Merav Pollak Web</title>
+<meta property="og:url" content="https://merav-pollak-web.000webhostapp.com/work1/index.html" />
+<meta property="og:type" content="website" />
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<center>
+<div id="menu">
+<li><a href="#about">About Me</a></li>
+<li><a href="#photos">My Photos</a></li>
+<li><a href="#playlist">My Playlist</a></li>
+<li><a href="#like">Like</a></li>
+<li><a href="#qrcoder">QR code</a></li>
+<li><a href="#spa">SPA Q&A</a></li>
+<li><a href="#contact">Contact Me</a>&nbsp;&nbsp;&nbsp;&nbsp;</li> 
+<br/>
+<li><img class="circular--square" id="owl" src="owl.jpg" style="image" alt= "" weight="100px" height="100px"></li>
+</div>
+
+
+		  
+<section class="section" id="about">
+<br/>
+<br/>
+<br/>
+<div><header><h1>About Me</h1></header>
+<img class="circular--square" src="picture.jpg" class="img-circle" style="image" alt= "" weight="200px" height="200px">
+<p>Hello I am Merav Pollak.
+<br/>Third year student in Information System Engineering
+<br/>(one yaer and a half to the end yooohoooo).   
+<br/>My Hobbies are: Vollyball, swimming and eating 
+<br/>(especially what my roommate make).
+<br/>I learn until now how to be an assignment machine. 
+<br/>I am very interested in the web world soo I hope to leran a thing or two.
+<br/> I was troubled to understand how to design this website, hope you like it! 
+</p>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="photos" class="section">
+<br/>
+<br/>
+<br/>
+
+<div><header><h1>My Photos</h1></header></div>
+<div class="image">
+
+ <a target="_blank" href="20160910_221919_resized.jpg">
+<img  src="20160910_221919_resized.jpg" class="border" alt="1" ></a>
+ <a target="_blank" href="20161101_212644_resized.jpg">
+<img src="20161101_212644_resized.jpg" class="border" alt="2"></a>
+<a target="_blank" href="20170127_223121-1_resized.jpg">
+<br/><img src="20170127_223121-1_resized.jpg" class="border" alt="3"></a>
+<a target="_blank" href="13433192_10209911848736426_5845403724952565631_o.jpg">
+<img src="13433192_10209911848736426_5845403724952565631_o.jpg" class="border" alt="4" ></a>
+<a target="_blank" href="13392218_10209911848776427_127945230849644308_o.jpg">
+<br/><img src="13392218_10209911848776427_127945230849644308_o.jpg" class="border" alt="5"></a>
+<a target="_blank" href="15590160_10210593907340515_7681206732210319616_n.jpg">
+<img src="15590160_10210593907340515_7681206732210319616_n.jpg" class="border" alt="6"></a>
+<a target="_blank" href="13482839_640705799439082_8446329854669856527_o.jpg">
+<br/><img src="13482839_640705799439082_8446329854669856527_o.jpg"  class="border" alt="7"></a>
+<a target="_blank" href="15591375_805757636268135_7902377963339412964_o.jpg">
+<img src="15591375_805757636268135_7902377963339412964_o.jpg" class="border" alt="8"></a>
+<a target="_blank" href="12888557_10156745881635010_7117828860656436407_o.jpg">
+<br/><img src="12888557_10156745881635010_7117828860656436407_o.jpg" class="border" alt="9"></a>
+<a target="_blank" href="13413720_10209911848856429_8087532016730002102_n.jpg">
+<img src="13413720_10209911848856429_8087532016730002102_n.jpg" class="border" alt="10"></a>
+</div>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="playlist" class="section">
+<br/>
+<br/>
+<br/>
+<div><header><h1>My Playlist</h1></header></div>
+<div><iframe width="560" height="315" src="https://www.youtube.com/embed/ru0K8uYEZWw?list=RDru0K8uYEZWw" frameborder="0" allowfullscreen></iframe></div>
+<br/>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<br/>
+<div><header><h1>Give Me a Like</h1></header></div>
+<br/>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fmerav-pollak-web.000webhostapp.com%2Fwork1%2Findex.html&width=450&layout=standard&action=like&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<br/>
+<div class="fb-like" data-href="https://merav-pollak-web.000webhostapp.com/work1/index.html" data-width="450" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<div> <header><h1>Scan My Code </h1></header>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<div>
+<img src="MeravPollakWeb_kaywa.me_gBkX7.png" alt= ""></div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<div> <header><h1> Answers</h1></header>
+<br/>
+<p>1.If your site is a single Page Application? </p>
+<p>Yes, my website is a Single Page Application because:
+<br/>a.it very easy to navigate in the website.
+<br/>b.minimal content appear in the website.
+<br/>c.I could put a lot more pictures and it would fit.</p>
+<br/><br/>
+<br/>
+<p>2.What is the main innovation in single page application technology?</p> 
+<p>A single-page application (SPA) is a web application or web site that fits on a single web page with the goal of providing a user experience similar to that of a desktop application.IN addition Single page sites promote simplicity and demand concise content.</p>
+</div>
+</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<div> <header><h1> Contact Me</h1></header>
+<div><p>you can emall me any time 
+<br/>
+<br/>
+<img src="smileTO.gif" alt="" width="70px" height="70px"> </p></div>
+<a href="mailto:meravpolak@gmail.com" class="contact-button">Email Me</a>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><br/>
+<br/>
+<br/><br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });;ג€‹
+ </script>
+ </center>
+</body>
+</html>
